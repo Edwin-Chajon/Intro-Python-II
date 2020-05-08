@@ -14,7 +14,9 @@ class Player:
         if hasattr(current_location, attribtue):
             return getattr(current_location, attribtue)
         # if you cant go that way
-        print("There's nothing that way.")
+        else:
+            print("\n")
+            print("There's nothing that way.")
 
         return current_location
 
